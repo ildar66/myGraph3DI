@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+
+Name: Element.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /yi5v25TkFfI7R9GxcXdA7rDCxc=
+MD5-Digest: skc3DR++13YhgghO25xw8w==
+
+Name: Figure.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Gm15rie870dIicM3Vr7yV8IYXSo=
+MD5-Digest: OJVWbX45MiXZJWcGT0L7Ow==
+
+Name: floatPanel.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gqeanWCR765VGZxy01Atp/JDXMA=
+MD5-Digest: ZWFPloJYwRhpteb7EwbpyA==
+
+Name: Graph3DI.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: wv2mj52x9JpwBHRNlFAwBE1swl4=
+MD5-Digest: E7fszKccFPJv6DXLdTmNrg==
+
+Name: Matrix3D.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: p2s5ZgCQOqdvmSmqYRSnBfu/QWE=
+MD5-Digest: eu6RmRyJ16Af8oSlg06OzQ==
+
+Name: Move.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: los4ewfw+WMJKkyB+HDqMtE6BQ4=
+MD5-Digest: xyGon0Nr2LkQaBpqyiaiAw==
+
+Name: Piace.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: BgiSqy4yZ0lBHmrSnNeMTPPgl20=
+MD5-Digest: o+dMlZ7ZPbxx1ViRzhBp4A==
+
+Name: Point3D.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: d/Dn8RfYignFn0r02IH37rYFM68=
+MD5-Digest: XI+QwMvByAALDPqeI0Hp+g==
+
+Name: Shade.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MhS0ioI0cLb6ZfVL4W7A/USYIlE=
+MD5-Digest: RwHJXSPEVbbmGQQ8SgcHCw==
+
+Name: Side.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: M6yFAgpLLHaM+OjcJWNinrI2j7M=
+MD5-Digest: MWpQGMljogKLrByLVB0SlA==
+
+Name: Vector3D.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WHtsdPxcQskwntDVOgqqJuD/UL0=
+MD5-Digest: gIWDZHQBksxlDwIo2GWWtg==
+

@@ -1,0 +1,14 @@
+Developer ID   : IS6
+Password       : ZEReYfJ6
+
+Resource Name  : Designing - 3DI
+Version        : 1
+Resource URL   : http://ildar66.narod.ru
+Source Code    : NO
+Type           : Applet
+Category       : Multimedia - 3D Graphics
+Language       : Java
+Marketing      : Other
+History        : New Submission
+Resource  ID   : IS6-1
+

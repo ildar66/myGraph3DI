@@ -1,0 +1,56 @@
+ /*class DrawControls extends Panel implements ItemListener {
+    DrawPanel target;
+
+    public DrawControls(DrawPanel target) {
+	this.target = target;
+	setLayout(new FlowLayout());
+	setBackground(Color.lightGray);
+	target.setForeground(Color.red);
+	CheckboxGroup group = new CheckboxGroup();
+	Checkbox b;
+	add(b = new Checkbox(null, group, false));
+	b.addItemListener(this);
+	b.setBackground(Color.red);
+	add(b = new Checkbox(null, group, false));
+	b.addItemListener(this);
+	b.setBackground(Color.green);
+	add(b = new Checkbox(null, group, false));
+	b.addItemListener(this);
+	b.setBackground(Color.blue);
+	add(b = new Checkbox(null, group, false));
+	b.addItemListener(this);
+	b.setBackground(Color.pink);
+	add(b = new Checkbox(null, group, false));
+	b.addItemListener(this);
+	b.setBackground(Color.orange);
+	add(b = new Checkbox(null, group, true));
+	b.addItemListener(this);
+	b.setBackground(Color.black);
+	target.setForeground(b.getForeground());
+	Choice shapes = new Choice();
+	shapes.addItemListener(this);
+	shapes.addItem("Lines");
+	shapes.addItem("Points");
+	shapes.setBackground(Color.lightGray);
+	add(shapes);
+    }
+
+    public void paint(Graphics g) {
+      Rectangle r = getBounds();
+      g.setColor(Color.lightGray);
+      g.draw3DRect(0, 0, r.width, r.height, false);
+    }
+
+  public void itemStateChanged(ItemEvent e) {
+    if (e.getSource() instanceof Checkbox) {
+      target.setForeground(((Component)e.getSource()).getBackground());
+    } else if (e.getSource() instanceof Choice) {
+      String choice = (String) e.getItem();
+      if (choice.equals("Lines")) {
+	target.setDrawMode(DrawPanel.LINES);
+      } else if (choice.equals("Points")) {
+	target.setDrawMode(DrawPanel.POINTS);
+      }
+    }
+  }
+}  */

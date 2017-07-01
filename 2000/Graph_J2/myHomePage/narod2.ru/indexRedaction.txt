@@ -1,0 +1,23 @@
+   Rhino: Порисуйте с нами - Draw with us.
+Щелкните ЗДЕСЬ , чтобы загрузить мою рисовалку, написанную на JAVA(30kB). 
+Click HERE to load my JAVA drawing applet  (30kB). 
+
+ Это очень увлекательно писать апплеты и приложения на JAVA. 
+Присоединяйтесь к нашему сообществу!!! 
+На этом апплете представлены простейшие примитивы, 
+созданные с помощью моей рисовалки. 
+
+It is very fascinating to make JAVA applets and applications . Join our community!!! 
+These elementary figures were created using my JAVA DRAWING APPLET 
+
+
+Made by Eldar ...(ildar@it.overstar.com) on January, 31
+Last edited December 31, 2001
+
+
+   Rhino: DEMO покажет простейшие примитивы, созданные с помощью рисовалки
+DEMO shows primitive figures, created using JAVA drawing applet
+HELP поможет вам разобраться.
+HELP ,.блин.. тут и так понятно
+С предложениями о работе обращаться на email.
+If you have any job offers - email me.

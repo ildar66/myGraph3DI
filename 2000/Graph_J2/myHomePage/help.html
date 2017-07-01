@@ -1,0 +1,637 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <meta name="Author" content="Ildar">
+   <meta name="GENERATOR" content="Mozilla/4.7 [en] (Win98; I) [Netscape]">
+   <title>Help</title>
+</head>
+<body>
+
+<center>
+<h1>
+&nbsp;<u><font color="#CC0000">Help</font></u></h1></center>
+
+<h2>
+<u><font color="#3333FF">Содержание:</font></u></h2>
+
+<ul>
+<li>
+<u><font color="#000000"><font size=+1><a href="#Основные">Основные понятия</a></font></font></u></li>
+
+<li>
+<u><font color="#000000"><font size=+1><a href="#Функции">Функции кнопок</a></font></font></u></li>
+
+<ul>
+<li>
+<u><font color="#000000"><a href="#Верхняя панель">Верхняя панель</a></font></u></li>
+
+<li>
+<u><font color="#000000"><a href="#Левая панель">Левая панель</a></font></u></li>
+
+<li>
+<u><font color="#000000"><a href="#Правая панель">Правая панель</a></font></u></li>
+
+<li>
+<u><font color="#000000"><a href="#Нижняя панель">Нижняя панель</a></font></u></li>
+
+<li>
+<u><font color="#000000"><a href="#Панель">Панель VIEW</a></font></u></li>
+</ul>
+</ul>
+
+<h2>
+<a NAME="Основные"></a><u><font color="#3333FF">Основные понятия:</font></u></h2>
+
+<li>
+<font face="Arial,Helvetica"><font color="#00CC00">Figure</font><font color="#006600">:</font></font></li>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<font size=+1> Фигура, состоящая из сторон.</font>
+<br>&nbsp;
+<li>
+<font color="#00CC00"><font face="Arial,Helvetica">Side</font>:</font></li>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Сторона, принадлежащая фигуре.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Точки текущей стороны выделены:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- красными кружками(последняя точка выделена двойным кружком);
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- зелеными кружками, при добавлениии к ней элементов;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Точки других сторон (при
+влюченной кнопке"net on") выделены кружками
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; черного цвета для
+привязки к&nbsp; ним точек текущей стороны;
+<br>&nbsp;
+<li>
+<font color="#00CC00"><font face="Arial,Helvetica">Element</font>:</font></li>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Элемент стороны фигуры. Форма, цвет и его
+заполненность выбирается в
+<br>&nbsp;&nbsp;&nbsp;&nbsp; нижней панели апплета.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Форма(выпадающий список):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1) Polygon - замкнутый многоугольник;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2) freePolygon - замкнутая кривая;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3) Line - прямая или ломаная линия;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4) freeLine - кривая.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Цвет(радиокнопки):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- цветовая гамма от белого до черного.
+<br><a NAME="Заполненность"></a>Заполненность(кнопка "Full"/"Empty"):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- заполняет цветом замкнутую форму;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- увеличивает толщину линии незамкнутой формы.
+<h2>
+<a NAME="Функции"></a><u><font color="#3333FF">Функции кнопок:</font></u></h2>
+&nbsp;
+<center><table BORDER COLS=3 WIDTH="98%" >
+<caption>
+<h3>
+<a NAME="Верхняя панель"></a><u><font face="Arial,Helvetica"><font color="#000000">Верхняя
+панель апплета:</font></font></u></h3>
+</caption>
+
+<tr>
+<th WIDTH="15%" BGCOLOR="#C0C0C0">Название кнопки</th>
+
+<th WIDTH="70%" BGCOLOR="#C0C0C0">Действие при нажатии</th>
+
+<th WIDTH="10%" BGCOLOR="#C0C0C0">&nbsp;&nbsp; Клавиша</th>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Esc"</td>
+
+<td>Отмена фигуры(стороны или элемента)&nbsp;</td>
+
+<td>'Esc'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"new Figure"</td>
+
+<td>Создание новой фигуры</td>
+
+<td>'f '</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"new Side"</td>
+
+<td>Создание новой стороны фигуры</td>
+
+<td>'s'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"new Element"</td>
+
+<td>Создание нового элемента стороны</td>
+
+<td>'e'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"FP"</td>
+
+<td>Вызов вспомогательной панели</td>
+
+<td>-</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td ALIGN=CENTER BGCOLOR="#FFFFFF">
+<center><table BORDER COLS=2 WIDTH="100%" >
+<tr ALIGN=CENTER>
+<td ALIGN=CENTER NOWRAP BGCOLOR="#33FF33"><font color="#000000">"Move"</font></td>
+
+<td NOWRAP BGCOLOR="#FFFF00">"Paint"</td>
+</tr>
+</table></center>
+</td>
+
+<td>Переключатель режимов
+<center>(<font color="#33FF33">движения
+</font>/
+<font color="#FFCC00">рисования</font>)</center>
+</td>
+
+<td ALIGN=CENTER>-</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>
+<center><table BORDER COLS=1 WIDTH="70%" BGCOLOR="#C0C0C0" >
+<tr ALIGN=CENTER>
+<td>"Side"</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Figure"</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"All"</td>
+</tr>
+</table></center>
+</td>
+
+<td>В&nbsp; режиме "<font color="#00CC00">Move</font>" , манипулируя мышью,
+можно вращать или перемешать:
+<br>&nbsp; "Side" - текущую сторону;
+<br>&nbsp;&nbsp; "Figure" - текущую фигуру;
+<br>&nbsp;"All" -&nbsp; все фигуры ;
+<br>(Для перемещения нужно захватить и удерживать мышью красный кружок
+)&nbsp;</td>
+
+<td>-</td>
+</tr>
+</table></center>
+
+<br>&nbsp;
+<center><table BORDER COLS=3 WIDTH="90%" >
+<caption>
+<h3>
+<a NAME="Левая панель"></a><u><font face="Arial,Helvetica"><font color="#000000">Левая
+панель апплета:</font></font></u></h3>
+</caption>
+
+<tr BGCOLOR="#C0C0C0">
+<th WIDTH="20%">Название&nbsp;
+<br>кнопки</th>
+
+<th WIDTH="70%">Действие при нажатии</th>
+
+<th WIDTH="10%">Клавиша</th>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<td COLSPAN="3" WIDTH="100%">Вращение(Rotate)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"X","Y","Z"</td>
+
+<td>Вращение всех фигур по осям (x,y,z)</td>
+
+<td>'X','Y','Z'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"x","y","z"</td>
+
+<td>Вращение текущей фигуры по осям (x,y,z)</td>
+
+<td>'x','y','z'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"1","2","3"</td>
+
+<td>Вращение текущего элемента(или текущей стороны со всеми ее элементами)
+по осям (x,y,z)</td>
+
+<td>'1','2','3'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td COLSPAN="3" BGCOLOR="#3333FF">Направление(Direct)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"+","-","*"</td>
+
+<td>Изменение направления вращения и масштабирования&nbsp;</td>
+
+<td>'+', '-', '*'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td COLSPAN="3" BGCOLOR="#3333FF">Перемещение(Transfer)</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="3" BGCOLOR="#33FF33">Piace</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Up","Down"</td>
+
+<td>Перемещение всех фигур вверх или вниз</td>
+
+<td>стрелки</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"->","&lt;-"</td>
+
+<td>Перемещение всех фигур вправо или влево</td>
+
+<td>'->', '&lt;-'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td COLSPAN="3" BGCOLOR="#33FF33">Figure(Shift +)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Up","Down"</td>
+
+<td>Перемещение текущей фигуры вверх или вниз</td>
+
+<td>'Shift'+'стрелки'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"->","&lt;-"</td>
+
+<td WIDTH="65%">Перемещение текущей фигуры вправо или влево</td>
+
+<td>'Shift'+ '->','&lt;-'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"End","Home"</td>
+
+<td>Перемещение текущей фигуры от нас и к нам(см.FP)</td>
+
+<td WIDTH="15%">'Shift'+'End','Home'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Select(Ctrl +)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Up","Down"</td>
+
+<td>Перемещение текущей стороны(элемента) вверх или вниз</td>
+
+<td>'Ctrl'+стрелки</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"->",
+<br>"&lt;-"</td>
+
+<td>Перемещение текущей стороны(элемента) вправо или влево</td>
+
+<td>'Ctrl' +'->',
+<br>'Ctrl'+'&lt;-'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"End",
+<br>"Home"</td>
+
+<td>Перемещение текущей стороны(элемента) от нас&nbsp;
+<br>и к нам(см.FP)</td>
+
+<td>'Ctrl'+'End',
+<br>'Ctrl'+'Home'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<td COLSPAN="3"><font color="#000000">Следующий(Next)</font></td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Side(Tab)"</td>
+
+<td>Переход к следующей стороне текущей фигуры</td>
+
+<td>'Tab'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Element"</td>
+
+<td>Переход к следующему элементу текущей стороны</td>
+
+<td>'Ctrl+Tab'</td>
+</tr>
+</table></center>
+
+<center><table BORDER COLS=3 WIDTH="95%" BGCOLOR="#FFFFFF" >
+<caption>
+<blockquote>
+<h3>
+<a NAME="Правая панель"></a><font face="Arial,Helvetica"><u>Правая панель
+апплета</u>:</font></h3>
+</blockquote>
+</caption>
+
+<tr BGCOLOR="#C0C0C0">
+<th WIDTH="10%">Название&nbsp;
+<br>кнопки</th>
+
+<th>Действие при нажатии</th>
+
+<th WIDTH="10%">Клавиша</th>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<th COLSPAN="3" WIDTH="20%">Лицо(Face)</th>
+</tr>
+
+<tr ALIGN=CENTER>
+<td WIDTH="20%">"L",
+<br>"l"</td>
+
+<td>Положить текущую сторону на поверхность рисования
+<br>("L"- без деформации фигуры, "l"- с деформацией)</td>
+
+<td>'L',
+<br>'l'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"0"</td>
+
+<td>Смена лицевой части поверхности на противоположную
+<br>(в режиме "Backface On")</td>
+
+<td>'0'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<td COLSPAN="3">Масштабирование(Scale)</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для выбранной стороны или элемента(Select)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"4","5","6"</td>
+
+<td>Масштабирование по ширине, высоте и глубине</td>
+
+<td>'4','5','6'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для фигуры(Figure)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"7","8","9"</td>
+
+<td>Масштабирование фигуры по ширине, высоте и глубине</td>
+
+<td>'7','8','9'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для всей фигуры(Figure All)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Page Up"</td>
+
+<td>Равномерное увеличение объема&nbsp;</td>
+
+<td>'Page Up'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Page Down"</td>
+
+<td>Равномнрное уменьшение объема</td>
+
+<td>&nbsp;'Page Down'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<td COLSPAN="3">Удаление(Delete)</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для последней точки(Last Point)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Del"</td>
+
+<td>Удаление последней точки</td>
+
+<td>'Del'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для выбранной стороны или элемента(Select)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Ctrl+Del"</td>
+
+<td>Удаление выбранной стороны или элемента</td>
+
+<td>'Ctrl' + 'Del'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для фигуры(Figure)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Shift+Del"</td>
+
+<td>Удаление выбранной фигуры</td>
+
+<td>'Shift' + 'Del'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<td COLSPAN="3">Копирование(Copy)</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#33FF33">
+<td COLSPAN="3">Для выбранной стороны или элемента(Select)</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"c"</td>
+
+<td>Копирование выбранной стороны или элемента</td>
+
+<td>'c'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"C"</td>
+
+<td>Копирование выбранной фигуры</td>
+
+<td>'C'</td>
+</tr>
+
+<tr ALIGN=CENTER BGCOLOR="#3333FF">
+<td COLSPAN="3"><font color="#000000">Следующий(Next)</font></td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Figure"</td>
+
+<td>Переход к следующей фигуре</td>
+
+<td>'Shift' + 'Tab'</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>"Offset('n')"</td>
+
+<td>Перенести ось вращения в следующую точку выбранной стороны
+<br>или элемента</td>
+
+<td>'n'</td>
+</tr>
+</table></center>
+
+<br>&nbsp;
+<br>&nbsp;
+<center><table BORDER COLS=3 WIDTH="92%" >
+<caption>
+<h3>
+<a NAME="Нижняя панель"></a><u><font face="Arial,Helvetica">Нижняя панель
+апплета:</font></u></h3>
+</caption>
+
+<tr ALIGN=CENTER BGCOLOR="#C0C0C0">
+<th WIDTH="20%">Название&nbsp;
+<br>кнопки</th>
+
+<th WIDTH="60%">Действие при нажатии</th>
+
+<th WIDTH="15%">Клавиша</th>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>
+<center><table BORDER COLS=2 WIDTH="70%" BGCOLOR="#C0C0C0" >
+<tr ALIGN=CENTER>
+<td>&nbsp;"Full"&nbsp;</td>
+
+<td>"Empty"</td>
+</tr>
+</table></center>
+</td>
+
+<td>см. <a href="#Заполненность">Заполненность</a></td>
+
+<td>-</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>
+<table BORDER COLS=2 WIDTH="90%" >
+<tr BGCOLOR="#C0C0C0">
+<td NOWRAP>"Net OFF"</td>
+
+<td NOWRAP>"Net ON"</td>
+</tr>
+</table>
+</td>
+
+<td>Выкл./Вкл. выделение точек сторон текущей фигуры</td>
+
+<td WIDTH="15%">-</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td>
+<center><table BORDER COLS=1 WIDTH="80%" >
+<tr>
+<td ALIGN=CENTER NOWRAP WIDTH="70%" BGCOLOR="#C0C0C0">"Backface OFF"</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER NOWRAP BGCOLOR="#C0C0C0">"Backface ON"</td>
+</tr>
+</table></center>
+</td>
+
+<td>Выкл./Вкл. режима "задней стороны" для&nbsp;
+<br>сторон текущей фигуры</td>
+
+<td>-</td>
+</tr>
+</table></center>
+
+<center>
+<h3>
+<a NAME="Панель"></a><u>Панель вида:</u></h3></center>
+<font size=+1>&nbsp;&nbsp;&nbsp; Панель вида(view...) показывает скелет
+текущей фигуры с закрашенной текущей</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp; стороной.&nbsp; В меню панели можно
+выбрать вид :</font>
+<center>
+<li>
+<font size=+1>справа(view Right);</font></li></center>
+
+<center>
+<li>
+<font size=+1>сверху(view Up);</font></li></center>
+
+<center>
+<li>
+<font size=+1>спереди(view Face);</font></li></center>
+<font size=+1>&nbsp;&nbsp;&nbsp; Нижний список("Form") и кнопки("Form('A')",
+"Form('B')", "Form('C')") служат</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp; для&nbsp; создания&nbsp; фигур вращения
+в трех разных плоскостях.</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Нарисовав, например, точку(или несколько)&nbsp; в стороне от оси вращения,</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp; и выбрав приращение&nbsp; угла поворота
+из списка, нажимаем несколько раз на</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp; кнопку "Form('A')" и создаем&nbsp;
+правильную&nbsp; плоскую&nbsp; фигуру&nbsp; в&nbsp; плоскости</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp; экрана монитора. Нажимая, затем на
+кнопку"Form('B')", создаем объемную</font>
+<br><font size=+1>&nbsp;&nbsp;&nbsp; фигуру и т. далее.</font>
+</body>
+</html>
